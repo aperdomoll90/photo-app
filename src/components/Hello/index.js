@@ -1,5 +1,5 @@
 import React from 'react'
-import icon from '../../../assets/icon.svg';
+import icon from '../../../assets/icon.svg'
 
 const Hello = () => {
   return (
@@ -7,7 +7,7 @@ const Hello = () => {
       <div className="Hello">
         <img width="200px" alt="icon" src={icon} />
       </div>
-      <h1>My First electron app</h1>
+      <h1>My First Electron App</h1>
       <div className="Hello">
         <a
           href="https://electron-react-boilerplate.js.org/"

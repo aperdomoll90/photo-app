@@ -18,10 +18,23 @@ body {
   justify-content: center;
   align-items: center;
 }
+nav{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  margin: 0;
+  height: 3rem;
+  align-items: center;
+  justify-content:space-around ;
+  background-color: rgb(32, 14, 49);
+  z-index: 10;
 
-button {
-  background-color: white;
-  padding: 10px 20px;
+}
+
+.button {
+  background-color: rgb(32, 14, 49);;
+  padding: 5px 10px;
   border-radius: 10px;
   border: none;
   appearance: none;
@@ -30,6 +43,7 @@ button {
     0px 18px 88px -4px rgba(24, 39, 75, 0.14);
   transition: transform ease-in 0.1s;
   cursor: pointer;
+  color: aliceblue;
 }
 
 button:hover {
@@ -57,4 +71,13 @@ a:hover {
   justify-content: center;
   align-items: center;
   margin: 20px 0;
+}
+
+.save-btn{
+  position: fixed;
+  top:0.6rem;
+  right: 8px;
+  z-index: 20;
+  background-color: rgb(32, 14, 49);
+  color: aliceblue;
 }
